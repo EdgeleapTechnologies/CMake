@@ -5,8 +5,8 @@ function(configure_compiler_warnings
     set(EDGELEAP_MSVC_WARNINGS
         /W4
         /WX
-        /W14265 # class with virtual functions and non-virtual destructor
-        /W14640 # thread un-safe static member initialization
+        /w14265 # class with virtual functions and non-virtual destructor
+        /w14640 # thread un-safe static member initialization
         /permissive-
     )
 
